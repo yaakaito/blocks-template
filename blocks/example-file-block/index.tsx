@@ -8,6 +8,7 @@ export default function ExampleFileBlock(props: FileBlockProps) {
     ? getLanguageFromFilename(context.path)
     : "N/A";
 
+
   return (
     <Box p={4}>
       <Box
@@ -24,7 +25,7 @@ export default function ExampleFileBlock(props: FileBlockProps) {
           borderBottomStyle="solid"
           borderColor="border.default"
         >
-          File: {context.path} {language}
+          private blocks File: {context.path} {language}
         </Box>
         <Box p={4}>
           <p>Metadata example: this button has been clicked:</p>
