@@ -1,7 +1,7 @@
 [
   {
     "type": "file",
-    "id": "file-block",
+    "id": "file-block-private",
     "title": "Example File Block",
     "description": "A basic file block",
     "entry": "blocks/example-file-block/index.tsx",
@@ -10,7 +10,7 @@
   },
   {
     "type": "folder",
-    "id": "folder-block",
+    "id": "folder-block-private",
     "title": "Example Folder Block",
     "description": "A basic folder block",
     "entry": "blocks/example-folder-block.tsx",
